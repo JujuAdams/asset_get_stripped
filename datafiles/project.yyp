@@ -45,6 +45,7 @@
     {"id":{"name":"sndTest2","path":"sounds/sndTest2/sndTest2.yy",},},
     {"id":{"name":"sTest","path":"sprites/sTest/sTest.yy",},},
     {"id":{"name":"sTest2","path":"sprites/sTest2/sTest2.yy",},},
+    {"id":{"name":"sTest3","path":"sprites/sTest3/sTest3.yy",},},
     {"id":{"name":"tsTest","path":"tilesets/tsTest/tsTest.yy",},},
     {"id":{"name":"tsTest2","path":"tilesets/tsTest2/tsTest2.yy",},},
     {"id":{"name":"tlTest","path":"timelines/tlTest/tlTest.yy",},},
