@@ -1,4 +1,4 @@
-se export=False
+set export=False
 
 if "%YYtargetFile%" == "" set export=True
 if "%YYEXTOPT_removed_asset_detector_force_export%" == "True" set export=True
