@@ -1,6 +1,6 @@
 {
   "$GMExtension":"",
-  "%Name":"asset_get_stripped_options",
+  "%Name":"removed_asset_detector",
   "androidactivityinject":null,
   "androidclassname":"",
   "androidcodeinjection":"",
@@ -35,15 +35,15 @@
   "maccompilerflags":"",
   "maclinkerflags":"",
   "macsourcedir":"",
-  "name":"asset_get_stripped_options",
+  "name":"removed_asset_detector",
   "options":[
     {"$GMExtensionOption":"","%Name":"force_export","defaultValue":"False","description":"Whether to force export of project data when compiling an executable. Warning! This is a potential security risk; do not enable for public production builds.","displayName":"Force Export","exportToINI":false,"extensionId":null,"guid":"c4e0f774-1282-4ccd-94de-97b75dd3e513","hidden":false,"listItems":[],"name":"force_export","optType":0,"resourceType":"GMExtensionOption","resourceVersion":"2.0",},
   ],
   "optionsFile":"options.json",
   "packageId":"",
   "parent":{
-    "name":"asset_get_stripped",
-    "path":"asset_get_stripped.yyp",
+    "name":"Removed Asset Detector",
+    "path":"folders/Removed Asset Detector.yy",
   },
   "productId":"",
   "resourceType":"GMExtension",
