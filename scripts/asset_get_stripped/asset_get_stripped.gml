@@ -11,6 +11,12 @@
 /// 
 /// Please note:
 /// 
+/// - To protect potentially sensitive data, this tool will not attach project file data to your
+///   game when building an executable for release. This means the default behavior is for
+///   `asset_get_stripped()` will always return `false` when running your game outside the IDE.
+///   If you'd like to enable `asset_get_stripped()` for executable builds, please tick the
+///   `Force Export` option in `asset_get_stripped_options`.
+/// 
 /// - The HTML5 runtime is not supported and this function will always return `false`.
 /// 
 /// - In IDE v2024.11.0.179 / Runtime v2024.11.0.226: room assets, script assets and particle
@@ -19,7 +25,7 @@
 /// - In IDE v2024.14.0.207  Runtime v2024.14.0.251: room assets and script assets do not
 ///   appear to get stripped by the compiler.
 /// 
-/// @param assetName
+/// @param {String} assetName
 
 function asset_get_stripped(_assetName)
 {

@@ -11,10 +11,10 @@
   "androidsourcedir":"",
   "author":"",
   "classname":"",
-  "copyToTargets":3035426178912485614,
+  "copyToTargets":3035426178912485582,
   "description":"",
   "exportToGame":true,
-  "extensionVersion":"0.0.1",
+  "extensionVersion":"1.0.0",
   "files":[],
   "gradleinject":null,
   "hasConvertedCodeInjection":true,
@@ -36,7 +36,9 @@
   "maclinkerflags":"",
   "macsourcedir":"",
   "name":"asset_get_stripped_options",
-  "options":[],
+  "options":[
+    {"$GMExtensionOption":"","%Name":"force_export","defaultValue":"False","description":"Whether to force export of project data when compiling an executable. Warning! This is a potential security risk; do not enable for public production builds.","displayName":"Force Export","exportToINI":false,"extensionId":null,"guid":"c4e0f774-1282-4ccd-94de-97b75dd3e513","hidden":false,"listItems":[],"name":"force_export","optType":0,"resourceType":"GMExtensionOption","resourceVersion":"2.0",},
+  ],
   "optionsFile":"options.json",
   "packageId":"",
   "parent":{
