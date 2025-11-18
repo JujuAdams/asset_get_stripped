@@ -22,5 +22,30 @@ _string += $"sndTest2 = {asset_get_stripped("sndTest2")} (expect 0)\n"; var _ = 
 _string += $"sTest2 = {asset_get_stripped("sTest2")} (expect 0)\n";     var _ = sTest2;
 _string += $"tsTest2 = {asset_get_stripped("tsTest2")} (expect 0)\n";   var _ = tsTest2;
 _string += $"tlTest2 = {asset_get_stripped("tlTest2")} (expect 0)\n";   var _ = tlTest2;
+_string += "\n";
+
+var _error = false;
+try
+{
+    asset_get_index_assert("fTest");
+}
+catch(_)
+{
+    _error = true;
+}
+
+_string += $"asset_get_index_assert(\"fTest\") error = {_error} (expect 1)\n";
+
+var _error = false;
+try
+{
+    asset_get_index_assert("fTest2");
+}
+catch(_)
+{
+    _error = true;
+}
+
+_string += $"asset_get_index_assert(\"fTest\") error = {_error} (expect 0)\n";
 
 draw_text(10, 10, _string);

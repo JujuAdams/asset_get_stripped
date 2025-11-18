@@ -35,6 +35,7 @@
     {"id":{"name":"pTest2","path":"paths/pTest2/pTest2.yy",},},
     {"id":{"name":"rDemo","path":"rooms/rDemo/rDemo.yy",},},
     {"id":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
+    {"id":{"name":"asset_get_index_assert","path":"scripts/asset_get_index_assert/asset_get_index_assert.yy",},},
     {"id":{"name":"asset_get_stripped","path":"scripts/asset_get_stripped/asset_get_stripped.yy",},},
     {"id":{"name":"scrTest","path":"scripts/scrTest/scrTest.yy",},},
     {"id":{"name":"seqTest","path":"sequences/seqTest/seqTest.yy",},},

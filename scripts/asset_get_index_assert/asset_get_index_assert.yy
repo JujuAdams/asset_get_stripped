@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"asset_get_index_assert",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"asset_get_index_assert",
+  "parent":{
+    "name":"asset_get_stripped",
+    "path":"asset_get_stripped.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
