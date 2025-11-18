@@ -8,7 +8,7 @@ _string += $"sndTest = {asset_get_stripped("sndTest")} (expect 1)\n";
 _string += $"sTest = {asset_get_stripped("sTest")} (expect 1)\n";
 _string += $"tsTest = {asset_get_stripped("tsTest")} (expect 1)\n";
 _string += $"tlTest = {asset_get_stripped("tlTest")} (expect 1)\n";
-_string += $"psTest = {asset_get_stripped("psTest")} (expect 0)\n";
+_string += $"psTest = {asset_get_stripped("psTest")} (expect 1)\n";
 _string += "\n";
 _string += $"rTest = {asset_get_stripped("rTest")} (expect 0)\n";
 _string += $"scrTest = {asset_get_stripped("scrTest")} (expect 0)\n";
