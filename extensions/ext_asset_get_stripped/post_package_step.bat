@@ -1,0 +1,1 @@
+copy "%YYMACROS_project_full_filename%" "%YYprojectDir%\datafiles\project.yyp"

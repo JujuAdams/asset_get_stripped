@@ -38,21 +38,21 @@ function asset_get_stripped(_assetName)
             //Skip all this work if we're not running from the IDE
             return undefined;
         }
+        //
+        //if ((os_type != os_windows) && (os_type != os_macosx) && (os_type != os_linux))
+        //{
+            ////Skip all this work if we're running on a non-development platform
+            //return undefined;
+        //}
         
-        if ((os_type != os_windows) && (os_type != os_macosx) && (os_type != os_linux))
-        {
-            //Skip all this work if we're running on a non-development platform
-            return undefined;
-        }
-        
-        if (GM_is_sandboxed)
-        {
-            show_error(" \nPlease tick `\"Disable file system sandbox\" for this platform in your Game Options\n ", true);
-        }
+        //if (GM_is_sandboxed)
+        //{
+            //show_error(" \nPlease tick `\"Disable file system sandbox\" for this platform in your Game Options\n ", true);
+        //}
         
         try
         {
-            var _buffer = buffer_load(GM_project_filename);
+            var _buffer = buffer_load("project.yyp");
             var _jsonString = buffer_read(_buffer, buffer_text);
             buffer_delete(_buffer);
             
@@ -81,11 +81,11 @@ function asset_get_stripped(_assetName)
         return false;
     }
     
-    if ((os_type != os_windows) && (os_type != os_macosx) && (os_type != os_linux))
-    {
+    //if ((os_type != os_windows) && (os_type != os_macosx) && (os_type != os_linux))
+    //{
         //We also can't detect anything helpful if we're running on a non-development platform
-        return false;
-    }
+        //return false;
+    //}
     
     if (asset_get_type(_assetName) != asset_unknown)
     {
